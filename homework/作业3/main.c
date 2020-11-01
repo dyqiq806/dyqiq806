@@ -9,9 +9,9 @@
 
 int main()
 {
-    printf("    name  number    math  english  computer\n");
-    printf("zhanghua    9901   80.50     87.0        80\n");
-    printf("    lina    9902  100.00     80.0        90\n");
-    printf("wanggang    9903   87.00     76.0        78\n");
+    printf("%8s%8s%8s%10s%10s\n","name","number","math","english","computer");
+    printf("%8s%8d%8.2f%8.1f%8d\n","zhanghua",9901,80.5,87.0,80);
+    printf("%8s%8d%8.2f%8.1f%8d\n","lina",9902,100.0,80.0,90);
+    printf("%8s%8d%8.2f%8.1f%8d\n","wanggang",9903,87.0,76.0,78);
     return 0;
 }

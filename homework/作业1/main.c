@@ -9,12 +9,10 @@
 
 int main()
 {
-    int F,C,P;
-    double K;
-    scanf("%d",&F);
-    P=(F-32);
-    C=P*5/9;
+    double F,C,K;
+    scanf("%lf",&F);
+    C=(F-32.0)*5./9;//可以为C=5*(F-32.0)/9
     K=273.16+C;
-    printf("C=%d,K=%g",C,K);
+    printf("C=%g,K=%g",C,K);
     return 0;
 }
